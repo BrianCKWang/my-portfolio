@@ -54,8 +54,6 @@ header h1 {
     line-height: 1;
 }
 
-
-
 header a:hover {
     color: var(--light);
 }
@@ -99,7 +97,7 @@ main {
 
 .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("../images/02-hero-bg2.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -110,10 +108,12 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+    padding-left: 10vw;
 }
 
 .hero-banner img {
     width: 150px;
+    margin: 20px;
     border-radius: 10%;
     opacity: 0.8;
 }
@@ -307,36 +307,44 @@ main {
 /* END PORTFOLIO PROJECT IMAGES */
 
 @media screen and (max-width: 980px) {
-header {
-    padding: 0 0 10px 0;
-    justify-content: center;
-    text-align: center;
-}
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
 
-header h1 {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size: 10vw;
-}
+    header h1 {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 10vw;
+    }
 
-header nav {
-    justify-content: center;
-}
+    header nav {
+        justify-content: center;
+    }
 
-.page-section > h2,
-.page-section > div {
-    flex: 0 0 100%;
-}
+    .page-section > h2,
+    .page-section > div {
+        flex: 0 0 100%;
+    }
 
-.page-section > h2 {
-    border-right: none;
-    border-bottom: 4px solid var(--primary);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: 7vw;
-}
+    .page-section > h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 7vw;
+    }
+
+    .hero-banner {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding-left: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -349,12 +357,7 @@ header nav {
         grid-auto-rows: minmax(200px, 1fr);
     }
 
-    .hero-banner {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+
 
     .contact address {
         flex-direction: column;
