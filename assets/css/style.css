@@ -231,7 +231,7 @@ main {
     grid-column: span 4;
     background-color: var(--primary);
     color: var(--tertiary);
-    min-height: 150px;
+    min-height: 100px;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -239,7 +239,7 @@ main {
     background-blend-mode: soft-light;
     background-size: 150%;
     transition: all 0.5s;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* feature first portfolio item */
@@ -308,6 +308,28 @@ main {
 
 .surf-report {
     background-image: url("../images/02-portfolio-4.jpg"); 
+}
+
+.SaveTV {
+    background-image: url("../images/02-SaveTV.gif"); 
+    background-size: 100%;
+    background-position: -50%;
+}
+
+.weather-dashboard {
+    background-image: url("../images/02-weather-dashboard.png"); 
+}
+
+.day-scheduler {
+    background-image: url("../images/02-day-scheduler.png"); 
+}
+
+.task-master {
+    background-image: url("../images/02-task-master.png"); 
+}
+
+.airhockey-table {
+    background-image: url("../images/02-airhockey-table.png"); 
 }
 
 /* END PORTFOLIO PROJECT IMAGES */
