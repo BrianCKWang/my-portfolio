@@ -1,18 +1,8 @@
-## Project Objective
-
-* Create a professional portfolio.
-
-## Description
-
-Full Stack Developer Portfolio
-
  # About Me
----
    - I am the go-to guy when you need a website deployed professionally and smoothly. Take a look at my work and decide for yourself.
    - Deployed URL: [Portfolio Page](https://brianckwang.github.io/my-portfolio/)
    
  # My Work
----
   ![Reward Bank](https://github.com/BrianCKWang/my-portfolio/blob/main/assets/images/02-reward-bank.png)
   - Reward Bank - MVC/RESTful Api/JavaScript
     - Reward Bank is an web based application that allows parents to set tasks for their children to do. When a task is completed and approved, children are awarded with points which can be used to claim rewards.
