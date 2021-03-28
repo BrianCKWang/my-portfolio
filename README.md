@@ -9,7 +9,8 @@ Full Stack Developer Portfolio
  - About Me
 
    - I am the go-to guy when you need a website deployed professionally and smoothly. Take a look at my work and decide for yourself.
-
+   - Deployed URL: [Portfolio Page](https://brianckwang.github.io/my-portfolio/)
+   
 - My Work
 
   - Reward Bank - MVC/RESTful Api/JavaScript
@@ -42,5 +43,3 @@ Full Stack Developer Portfolio
 - Resume
 
   - [Link](https://github.com/BrianCKWang/my-portfolio/blob/main/assets/docs/Resume.pdf)
-
-Deployed URL: [Portfolio Page](https://brianckwang.github.io/my-portfolio/)
