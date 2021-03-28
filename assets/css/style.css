@@ -332,6 +332,12 @@ main {
     background-image: url("../images/02-airhockey-table.png"); 
 }
 
+.reward-bank {
+    background-image: url("../images/02-reward-bank.png"); 
+    background-size: 100%;
+    background-position: 0 0;
+}
+
 /* END PORTFOLIO PROJECT IMAGES */
 
 @media screen and (max-width: 980px) {
