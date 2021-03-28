@@ -12,6 +12,8 @@ Full Stack Developer Portfolio
 
 - My Work
 
+  - Reward Bank - MVC/RESTful Api/JavaScript
+    - Reward Bank is an web based application that allows parents to set tasks for their children to do. When a task is completed and approved, children are awarded with points which can be used to claim rewards.
   - SaveTV - JavaScript
     - SaveTv is an application that allows you to search for random and sponsored Tv content.
     - SaveTv also provides the user with a responsive, easy to navigate way to search up your favorite shows at any time.
@@ -23,8 +25,6 @@ Full Stack Developer Portfolio
     - A web based task management UI utilizing jQuery, jQuery UI, Bootstrap, open iconic, and moment.js.
   - Airhockey Robot - C#/EMGU CV.NET/Arduino
     - The project includes a vision system and motor control system to control an air hockey mallet in order to deflect the air hockey puck.
-  - Run Buddy - HTML/CSS
-    - A practice website that offers mock-up fitness training services.
     
 - Resume
 
